@@ -6,7 +6,7 @@
 
 fn sme_Add_TileController locked = (
    -- Function sme_Add_TileController body
-
+   	local smeview = sme.GetView(sme.activeView)
 	local slate = smeview.GetSelectedNodes()
 	local nodes = #()
 
