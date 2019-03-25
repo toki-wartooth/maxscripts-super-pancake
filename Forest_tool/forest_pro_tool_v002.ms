@@ -1,4 +1,4 @@
---toki forest pro tools version 002
+--toki forest pro tools version 003
 
 
 
@@ -155,6 +155,7 @@ rollout toki_FPro_tools "Forest Pro Tools"
 (
 	--groupbox ""
 	--button 'All_scene' "All FP"
+	label 'lbl' "select forest --> look in selection sets"
 	button 'Selected' "Selected" toolTip:"Rightclick = all sceene"
 	--button 'sel_geo' "geo" across:3
 	--button 'sel_sur' "surface"
@@ -169,6 +170,7 @@ rollout toki_FPro_tools "Forest Pro Tools"
 	on Selected pressed do (
 	    -- Do something.
 	    FN_forestGet 0
+	    macros.run "Edit" "namedSelSets"
 	    --messagebox "Selected"
 	)
 	on Selected rightclick do (
