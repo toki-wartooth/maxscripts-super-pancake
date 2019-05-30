@@ -1,0 +1,4 @@
+Full filepaths that will be unpacked:
+D:\TD\3ddd_workflow\small_test\1894382.rar
+D:\TD\3ddd_workflow\small_test\2149417.rar
+D:\TD\3ddd_workflow\small_test\2360903.zip
